@@ -2,65 +2,216 @@
 <html>
     <head>
         <title>Home - lonelywolftre.at</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <style>
+            body {
+                background-image: url(assets/lakearea.png), url(assets/stars.png);
+                background-position: center bottom, center bottom;
+                background-size: 2400px 488px, 1088px 386px;
+                background-repeat: repeat-x, repeat;
+                
+                image-rendering: pixelated;
+                background-color: #1f213d;
+                font-size: 12pt;
+                margin: 0; /* i really don't like this but idk how else to make the background look right */
+            }
+
+            h1 {
+                text-align: center;
+                padding-top: 20px;
+            }
+
+            p {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            a {
+                color: #9294b5;
+                font-weight: bold;
+            }
+
+            .content {
+                padding: 8px 8px 600px 8px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .column {
+                width: 300px;
+                flex-grow: 1;
+            }
+
+            .collection {
+                background-color: #00000060;
+                padding: 8px;
+                margin: 8px;
+                border-radius: 12px;
+
+                h3 {
+                    margin: 4px;
+                    text-align: center;
+                }
+            }
+
+            .link {
+                background-color: #1f213dc0;
+                padding: 4px;
+                margin-top: 4px;
+                padding-right: 12px;
+                border-radius: 4px;
+
+                p {
+                    padding-top: 4px;
+                    padding-left: 12px;
+                }
+                a {
+                    padding-top: 4px;
+                    padding-bottom: 4px;
+                    padding-left: 12px;
+                }
+                a:hover {
+                    padding-left: 0px;
+                }
+                a:hover:before {
+                    content: url(assets/cursor.png);
+                    display: inline;
+                    width: 12px;
+                }
+            }
+
+            footer {
+                padding: 8px;
+                color: #282949;
+                text-align: center;
+                a {
+                    color: #282949;
+                }
+            }
+
+
+        </style>
     </head>
     <body>
-        <p>
-            This website is unofficial and is not associated with NomnomNami or Lonely Wolf Treat! it is also a MAJOR work in progress
-        </p>
-        <p>
-            You might be looking for:
-            <ul>
-                <li><a href="https://nomnomnami.com/">https://nomnomnami.com/</a> - NomonomNami's official site</li>
-                <li><a href="https://lonely-wolf-treat.carrd.co/">https://lonely-wolf-treat.carrd.co/</a> - Lonely Wolf Treat official website</li>
-                <li><a href="https://nomnomnami.itch.io/treat-complete">https://nomnomnami.itch.io/treat-complete</a> - Lonely Wolf Treat game page</li>
-            </ul>
-            NomnomNami official accounts:
-            <ul>
-                <li><a href="https://nomnomnami.itch.io/">itch.io</a></li>
-                <li><a href="https://www.patreon.com/nomnomnami">Patreon</a></li>
-                <li><a href="https://nomnomnamiart.tumblr.com/">Tumblr</a></li>
-                <li><a href="https://soundcloud.com/nomnomnami">SoundCloud</a></li>
-                <li><a href="https://www.youtube.com/@NomnomNami">YouTube</a></li>
-                <li><a href="https://nomnomnamiart.tumblr.com/">Tumblr</a></li>
-                <li><a href="https://www.pillowfort.social/nomnomnami">Pillowfort</a></li>
-            </ul>
-        </p>
-        <p>
-            Resources:
-            <ul>
-                <li><a href="dialogue">Lonely Wolf Treat dialogue</a></li>
-                <li><a href="faces">Lonely Wolf Treat faces</a></li>
-                <!-- <li><a href="archive">NomnomNami game archives</a></li> -->
-                    </ul>
-        </p>
-        <p>
-            Community links:
-            <ul>
-                <li><a href="https://discord.gg/NK5DtJy93D">Discord (Namiverse)</a></li>
-                <li><a href="https://www.reddit.com/r/nomnomnami/">Reddit (r/nomnomnami)</a></li>
-                <li><a href="https://www.tumblr.com/communities/namiverse">Tumblr</a></li>
-                <li><a href="https://bsky.app/profile/did:plc:asvasqreodg7lttflsfa7en2/feed/aaao52yd5jfoe">Bluesky</a></li>
-                <li><a href="https://www.pillowfort.social/community/NomnomNami">Pillowfort</a></li>
-            </ul>
-        </p>
-        <p>
-            Fanmade stuff:
-            <ul>
-                <li><a href="https://nomnomnami.miraheze.org/">NomnomNami Wiki (Miraheze)</a></li>
-                <li><a href="https://torinitei.github.io/charm-studies-lite/">Charm Studies lite - by Torinitei</a></li>
-            </ul>
-        </p>
-        <p>
-            More:
-            <ul>
-                <li><a href="https://moxdonalds.lonelywolftre.at/">Moxdonald's "Official" Website (revived)</a></li>
-                <li><a href="https://thefoxycatch.lonelywolftre.at/">The Foxy Catch "Official" Website</a></li>
-            </ul>
-        </p>
+        <h1>
+            This website is unofficial and is not affiliated with NomnomNami or Lonely Wolf Treat!
+        </h1>
+        <div class="content">
+            <div class="column">
+                <div class="collection">
+                    <h3>Lonely Wolf Treat</h3>
+                    <div class="link"><a href="https://lonely-wolf-treat.carrd.co/">Lonely Wolf Treat official website</a>
+                        <p>The official website for the heartwarming RPGMaker series by NomnomNami!</p>
+                    </div>
+                    <div class="link"><a href="https://nomnomnami.itch.io/treat-complete">Lonely Wolf Treat game page</a>
+                        <p>Download the game!</p>
+                    </div>
+                </div>
+                <div class="collection">
+                    <h3>NomnomNami</h3>
+                    <div class="link"><a href="https://nomnomnami.com/">NomonomNami's Official Site</a>
+                        <p>Announcements, posts, art, asks, and much more!</p>
+                    </div>
+                    <div class="link"><a href="https://trick.pika.page/">Letters from Trick</a>
+                        <p>Newsletters from Trick themself! Updates on Nami games, and whatever Trick's been up to.</p>
+                    </div>
+                    <div class="link"><a href="https://another-piece-of-candy.thecomicseries.com/">another piece of candy</a>
+                        <p>An ongoing, usually-weekly comic strip featuring NomnomNami's characters.</p>
+                    </div>
+                    <div class="link"><a href="https://shop.nomnomnami.com/">Shop</a>
+                        <p>Official merchandise for NomnomNami's games.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="collection">
+                    <h3>NomnomNami accounts</h3>
+                    <div class="link"><a href="https://nomnomnami.itch.io/">itch.io</a>
+                        <p>All of NomnomNami's games!</p>
+                    </div>
+                    <div class="link"><a href="https://www.patreon.com/nomnomnami">Patreon</a>
+                        <p>Support NomnomNami and gain early access to games and other perks.</p>
+                    </div>
+                    <div class="link"><a href="https://nomnomnamiart.tumblr.com/">Tumblr</a>
+                        <p>Occasional NomnomNami art posts.</p>
+                    </div>
+                    <div class="link"><a href="https://soundcloud.com/nomnomnami">SoundCloud</a>
+                        <p>NomnomNami's soundtracks and other music.</p>
+                    </div>
+                    <div class="link"><a href="https://www.youtube.com/@NomnomNami">YouTube</a>
+                        <p>Uploads of NomnomNami's music, and occasionally announcements and trailers!</p>
+                    </div>
+                    <div class="link"><a href="https://www.pillowfort.social/nomnomnami">Pillowfort</a>
+                        <p>Art, rants, and other posts.</p>
+                    </div>
+                    <div class="link"><a href="https://neocities.org/site/nomnomnami">Neocities</a>
+                        <p>NomnomNami's website is hosted here.</p>
+                    </div>
+                    <div class="link"><a href="https://nomnomarchive.tumblr.com/">Tumblr Archive</a>
+                        <p>But what's the password...? (everyone knows)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="collection">
+                    <h3>Resources</h3>
+                    <div class="link"><a href="dialogue">Lonely Wolf Treat dialogue</a>
+                        <p>A full dialogue dump of the entire Lonely Wolf Treat! (Mostly complete but still WIP)</p>
+                    </div>
+                    <div class="link"><a href="faces">Lonely Wolf Treat faces</a>
+                        <p>Every character dialogue portrait in Lonely Wolf Treat! (Also WIP)</p>
+                    </div>
+                    <!-- <div class="link"><a href="archive">NomnomNami game archives</a></div> -->
+                    <!-- <div class="link"><a href="resources">Miscellaneous</a></div> -->
+                </div>
+                <div class="collection">
+                    <h3>MoxDonald's</h3>
+                    <div class="link"><a href="https://moxdonalds.lonelywolftre.at/">Moxdonald's</a>
+                        <p>Moxie's site for NomnomNami's fast-food themed Moxdonalds arc. (Originally at moxdonalds.com)</p>
+                    </div>
+                    <div class="link"><a href="https://moxdonalds.lonelywolftre.at/girlfriends/">Girlfriends</a>
+                        <p>The Moxdonalds storyline, now featuring all the girlfriends!</p>
+                    </div>
+                    <div class="link"><a href="https://moxdonalds.lonelywolftre.at/gasgasgasgas/">Gas Gas Gas Gas</a>
+                        <p>Moxie is evil and goes really fast. Need we say more?</p>
+                    </div>
+                    <div class="link"><a href="https://moxdonalds.lonelywolftre.at/everyones-girlfriend/">Everyone's Girlfriend</a>
+                        <p>Another twist where everyone is Moxie's girlfriend!</p>
+                    </div>
+                    <div class="link"><a href="https://moxdonalds.lonelywolftre.at/moxie/">Moxie</a>
+                        <p>Just Moxie. Just Moxie. Just Moxie. (is this a reference?!)</p>
+                    </div>
+                </div>
+                <div class="collection">
+                    <h3>The Foxy Catch</h3>
+                    <div class="link"><a href="https://thefoxycatch.lonelywolftre.at/">The Foxy Catch</a>
+                        <p>Back and wetter than ever! (moxie we really need to workshop this slogan)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="collection">
+                    <h3>Community links</h3>
+                    <div class="link"><a href="https://discord.gg/NK5DtJy93D">Discord (Namiverse)</a></div>
+                    <div class="link"><a href="https://www.reddit.com/r/nomnomnami/">Reddit (r/nomnomnami)</a></div>
+                    <div class="link"><a href="https://www.tumblr.com/communities/namiverse">Tumblr</a></div>
+                    <div class="link"><a href="https://bsky.app/profile/did:plc:asvasqreodg7lttflsfa7en2/feed/aaao52yd5jfoe">Bluesky</a></div>
+                    <div class="link"><a href="https://www.pillowfort.social/community/NomnomNami">Pillowfort</a></div>
+                </div>
+                <div class="collection">
+                    <h3>Fanmade stuff</h3>
+                    <div class="link"><a href="https://nomnomnami.miraheze.org/">NomnomNami Wiki (Miraheze)</a>
+                        <p>Information on NomnomNami's games and characters!</p>
+                    </div>
+                    <div class="link"><a href="https://torinitei.github.io/charm-studies-lite/">Charm Studies lite - by Torinitei</a>
+                        <p>A browser version of Charm Studies with many extra puzzles!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            Lonely Wolf Treat by NomnomNami | Website by <a href="https://mothcolada.dev/">mothcolada</a>
+        </footer>
     </body>
 </html>
