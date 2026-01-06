@@ -8,14 +8,22 @@
             body {
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-evenly;
             }
             .character {
                 text-align: center;
                 background-color: #282949;
                 border-radius: 12px;
                 margin: 8px;
-                min-width: 201px;
+                padding: 4px;
+                min-width: 216px; /* 2 images * (96px width + 2*4px padding) + 2*4px padding */
+                flex-grow: 1;
+                font-size: 0pt;  /* fix whitespace */
+            }
+            h3 {
+                font-size: large;
+
+            }
+            img {
                 padding: 4px;
             }
         </style>
