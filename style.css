@@ -4,6 +4,11 @@ body {
   color: white;
 }
 
+a {
+  color: #9294b5;
+  font-weight: bold;
+}
+
 @font-face {
   font-family: "Nunito";
   src: url(assets/Nunito-SemiBold.ttf);
