@@ -1,6 +1,9 @@
 {
+    "Amaretti": [
+        "..\\assets\\faces\\other\\amaretti.png"
+    ],
     "Amphithoe": [
-        "..\\assets\\faces\\Amphithoe\\amphithoe.png"
+        "..\\assets\\faces\\other\\amphithoe.png"
     ],
     "Angelica": [
         "..\\assets\\faces\\face16-1.png",
@@ -22,12 +25,18 @@
         "..\\assets\\faces\\facebad8-2.png",
         "..\\assets\\faces\\facebad8-3.png"
     ],
+    "Armillaria": [
+        "..\\assets\\faces\\other\\armillaria.png"
+    ],
     "Astragalus": [
         "..\\assets\\faces\\face52-0.png",
         "..\\assets\\faces\\face52-4.png"
     ],
     "Baezel": [
-        "..\\assets\\faces\\Baezel\\baezel.png"
+        "..\\assets\\faces\\other\\baezel.png"
+    ],
+    "Barley": [
+        "..\\assets\\faces\\other\\barley.png"
     ],
     "Basmati": [
         "..\\assets\\faces\\face58-0.png",
@@ -54,9 +63,6 @@
         "..\\assets\\faces\\face11-2.png",
         "..\\assets\\faces\\face60-4.png"
     ],
-    "Butler": [
-        "..\\assets\\faces\\Butler\\butler.png"
-    ],
     "Butterscotch": [
         "..\\assets\\faces\\face17-3.png",
         "..\\assets\\faces\\face17-7.png"
@@ -70,11 +76,11 @@
         "..\\assets\\faces\\face48-3.png"
     ],
     "Capillaire": [
-        "..\\assets\\faces\\Capillaire\\Capillaire_capillaire.png",
+        "..\\assets\\faces\\other\\capillaire.png",
         "..\\assets\\faces\\face70-3.png"
     ],
     "Cassava": [
-        "..\\assets\\faces\\Cassava\\cassava.png"
+        "..\\assets\\faces\\other\\cassava.png"
     ],
     "Cassia": [
         "..\\assets\\faces\\face16-6.png",
@@ -94,11 +100,20 @@
         "..\\assets\\faces\\face41-5.png",
         "..\\assets\\faces\\face4-6.png"
     ],
+    "Chiffon": [
+        "..\\assets\\faces\\other\\chiffon.png"
+    ],
     "Chirval": [
-        "..\\assets\\faces\\Chirval\\chirval.png"
+        "..\\assets\\faces\\other\\chirval.png"
+    ],
+    "Chloe": [
+        "..\\assets\\faces\\other\\chloe.png"
+    ],
+    "Choux": [
+        "..\\assets\\faces\\other\\choux.png"
     ],
     "Clio": [
-        "..\\assets\\faces\\Clio\\clio.png"
+        "..\\assets\\faces\\other\\clio.png"
     ],
     "Clove": [
         "..\\assets\\faces\\face67-6.png",
@@ -112,7 +127,13 @@
         "..\\assets\\faces\\face48-6.png",
         "..\\assets\\faces\\face48-7.png"
     ],
-    "Dango (Danny)": [
+    "Cream": [
+        "..\\assets\\faces\\other\\cream.png"
+    ],
+    "Crystal": [
+        "..\\assets\\faces\\other\\crystal.png"
+    ],
+    "Dango": [
         "..\\assets\\faces\\face31-0.png",
         "..\\assets\\faces\\face31-1.png",
         "..\\assets\\faces\\face31-2.png",
@@ -123,12 +144,15 @@
         "..\\assets\\faces\\facebad7-6.png",
         "..\\assets\\faces\\facebad7-7.png"
     ],
+    "Dark Chocolate": [
+        "..\\assets\\faces\\other\\dark_chocolate.png"
+    ],
     "Drop": [
         "..\\assets\\faces\\face16-5.png",
         "..\\assets\\faces\\face30-1.png"
     ],
     "Dynamene": [
-        "..\\assets\\faces\\Dynamene\\dynamene.png"
+        "..\\assets\\faces\\other\\dynamene.png"
     ],
     "Eleni": [
         "..\\assets\\faces\\face16-3.png",
@@ -139,10 +163,10 @@
         "..\\assets\\faces\\face9-3.png"
     ],
     "Eudora": [
-        "..\\assets\\faces\\Eudora\\eudora.png"
+        "..\\assets\\faces\\other\\eudora.png"
     ],
     "Ezel": [
-        "..\\assets\\faces\\Ezel\\ezel.png"
+        "..\\assets\\faces\\other\\ezel.png"
     ],
     "Fennel": [
         "..\\assets\\faces\\face19-2.png",
@@ -161,7 +185,7 @@
         "..\\assets\\faces\\face46-2.png",
         "..\\assets\\faces\\face46-3.png"
     ],
-    "Grenadine (Granny)": [
+    "Grenadine": [
         "..\\assets\\faces\\face64-0.png",
         "..\\assets\\faces\\face64-1.png",
         "..\\assets\\faces\\face64-2.png",
@@ -174,6 +198,9 @@
         "..\\assets\\faces\\face71-2.png",
         "..\\assets\\faces\\face71-3.png"
     ],
+    "Grim": [
+        "..\\assets\\faces\\other\\grim.png"
+    ],
     "Gumdrop": [
         "..\\assets\\faces\\face17-1.png",
         "..\\assets\\faces\\face35-2.png",
@@ -184,7 +211,7 @@
         "..\\assets\\faces\\facebad1-5.png"
     ],
     "Illi": [
-        "..\\assets\\faces\\Illi\\illi.png"
+        "..\\assets\\faces\\other\\illi.png"
     ],
     "Jam": [
         "..\\assets\\faces\\face20-2.png",
@@ -199,6 +226,9 @@
         "..\\assets\\faces\\face9-5.png",
         "..\\assets\\faces\\face9-6.png",
         "..\\assets\\faces\\face9-7.png"
+    ],
+    "Kardaemon": [
+        "..\\assets\\faces\\other\\kardaemon.png"
     ],
     "Lemonne": [
         "..\\assets\\faces\\face3-5.png",
@@ -227,11 +257,14 @@
     "Maiden": [
         "..\\assets\\faces\\Maiden\\maiden.png"
     ],
+    "Malt": [
+        "..\\assets\\faces\\other\\malt.png"
+    ],
     "Mango": [
         "..\\assets\\faces\\face19-6.png",
         "..\\assets\\faces\\face19-7.png"
     ],
-    "Manjuu (Juju)": [
+    "Manjuu": [
         "..\\assets\\faces\\face37-0.png",
         "..\\assets\\faces\\face37-1.png",
         "..\\assets\\faces\\face37-2.png",
@@ -264,13 +297,19 @@
         "..\\assets\\faces\\facebad7-3.png"
     ],
     "Mazaal": [
-        "..\\assets\\faces\\Mazaal\\mazaal.png"
+        "..\\assets\\faces\\other\\mazaal.png"
     ],
     "Mel": [
         "..\\assets\\faces\\face32-4.png"
     ],
     "Melite": [
-        "..\\assets\\faces\\Melite\\melite.png"
+        "..\\assets\\faces\\other\\melite.png"
+    ],
+    "Milk Chocolate": [
+        "..\\assets\\faces\\other\\milk_chocolate.png"
+    ],
+    "Mince": [
+        "..\\assets\\faces\\other\\mince.png"
     ],
     "Mitsu": [
         "..\\assets\\faces\\face30-7.png",
@@ -463,7 +502,10 @@
         "..\\assets\\faces\\face71-7.png"
     ],
     "Nil": [
-        "..\\assets\\faces\\Nil\\nil.png"
+        "..\\assets\\faces\\other\\nil.png"
+    ],
+    "Nori": [
+        "..\\assets\\faces\\face38-7.png"
     ],
     "Nougat": [
         "..\\assets\\faces\\face16-0.png",
@@ -477,12 +519,15 @@
         "..\\assets\\faces\\face30-5.png"
     ],
     "Olog": [
-        "..\\assets\\faces\\Olog\\olog.png"
+        "..\\assets\\faces\\other\\olog.png"
     ],
     "Orchid": [
         "..\\assets\\faces\\facebad1-1.png",
         "..\\assets\\faces\\facebad1-6.png",
         "..\\assets\\faces\\facebad1-7.png"
+    ],
+    "Osmanthus": [
+        "..\\assets\\faces\\other\\osmanthus.png"
     ],
     "Overlord": [
         "..\\assets\\faces\\Overlord\\overlord.png"
@@ -492,6 +537,9 @@
         "..\\assets\\faces\\facebad5-3.png",
         "..\\assets\\faces\\facebad5-6.png",
         "..\\assets\\faces\\facebad5-7.png"
+    ],
+    "Pastila": [
+        "..\\assets\\faces\\other\\pastila.png"
     ],
     "Pastille": [
         "..\\assets\\faces\\face17-2.png",
@@ -521,11 +569,14 @@
         "..\\assets\\faces\\face62-0.png",
         "..\\assets\\faces\\face62-2.png"
     ],
+    "Pine": [
+        "..\\assets\\faces\\other\\pine.png"
+    ],
     "Pitaya": [
         "..\\assets\\faces\\face3-4.png"
     ],
     "Poffin": [
-        "..\\assets\\faces\\Poffin\\poffin.png"
+        "..\\assets\\faces\\other\\poffin.png"
     ],
     "Powder": [
         "..\\assets\\faces\\face19-3.png",
@@ -534,6 +585,9 @@
         "..\\assets\\faces\\face47-5.png",
         "..\\assets\\faces\\face47-6.png",
         "..\\assets\\faces\\face47-7.png"
+    ],
+    "Qmin": [
+        "..\\assets\\faces\\other\\qmin.png"
     ],
     "Rose": [
         "..\\assets\\faces\\face35-4.png"
@@ -559,8 +613,11 @@
         "..\\assets\\faces\\face4-4.png",
         "..\\assets\\faces\\face7-7.png"
     ],
+    "Savarin": [
+        "..\\assets\\faces\\other\\savarin.png"
+    ],
     "Searina": [
-        "..\\assets\\faces\\Searina\\searina.png"
+        "..\\assets\\faces\\other\\searina.png"
     ],
     "Senbei": [
         "..\\assets\\faces\\face38-6.png",
@@ -568,9 +625,6 @@
         "..\\assets\\faces\\facebad7-5.png",
         "..\\assets\\faces\\facebad8-6.png",
         "..\\assets\\faces\\facebad8-7.png"
-    ],
-    "Senna": [
-        "..\\assets\\faces\\Senna\\senna.png"
     ],
     "Sesame": [
         "..\\assets\\faces\\face58-7.png"
@@ -585,10 +639,16 @@
     "Strudel": [
         "..\\assets\\faces\\face32-5.png"
     ],
+    "Sushka": [
+        "..\\assets\\faces\\other\\sushka.png"
+    ],
     "Syrup": [
         "..\\assets\\faces\\face17-0.png",
         "..\\assets\\faces\\face17-4.png",
         "..\\assets\\faces\\face17-5.png"
+    ],
+    "Tea": [
+        "..\\assets\\faces\\other\\tea.png"
     ],
     "Thyme": [
         "..\\assets\\faces\\face13-2.png",
@@ -607,12 +667,6 @@
         "..\\assets\\faces\\facebad4-2.png",
         "..\\assets\\faces\\facebad4-3.png",
         "..\\assets\\faces\\facebad4-7.png"
-    ],
-    "Time (Thyme)": [
-        "..\\assets\\faces\\Time (Thyme)\\face13-2.png",
-        "..\\assets\\faces\\Time (Thyme)\\face13-6.png",
-        "..\\assets\\faces\\Time (Thyme)\\face55-6.png",
-        "..\\assets\\faces\\Time (Thyme)\\face55-7.png"
     ],
     "Tiramisu": [
         "..\\assets\\faces\\face30-2.png",
@@ -750,17 +804,17 @@
         "..\\assets\\faces\\facebad3-0.png",
         "..\\assets\\faces\\facebad3-1.png"
     ],
+    "Twigs": [
+        "..\\assets\\faces\\other\\twigs.png"
+    ],
     "Underling": [
         "..\\assets\\faces\\facebad1-4.png"
     ],
     "Vido": [
-        "..\\assets\\faces\\Vido\\vido.png"
+        "..\\assets\\faces\\other\\vido.png"
     ],
     "Vinegar": [
-        "..\\assets\\faces\\Vinegar\\vinegar.png"
-    ],
-    "Waiter": [
-        "..\\assets\\faces\\Waiter\\waiter.png"
+        "..\\assets\\faces\\other\\vinegar.png"
     ],
     "You": [
         "..\\assets\\faces\\You\\you.png"
@@ -782,9 +836,15 @@
         "..\\assets\\faces\\face30-6.png",
         "..\\assets\\faces\\face60-6.png"
     ],
+    "[Creepy Witch]": [
+        "..\\assets\\faces\\other\\creepy_witch.png"
+    ],
     "[Dazed Rabbit]": [
         "..\\assets\\faces\\facebad6-4.png",
         "..\\assets\\faces\\facebad6-5.png"
+    ],
+    "[Himbo Witch]": [
+        "..\\assets\\faces\\other\\himbo_witch.png"
     ],
     "[Grumpy Grandpa]": [
         "..\\assets\\faces\\face31-4.png"
@@ -792,6 +852,9 @@
     "[Mouse Merchant]": [
         "..\\assets\\faces\\face24-6.png",
         "..\\assets\\faces\\face25-0.png"
+    ],
+    "[Nasty Witch]": [
+        "..\\assets\\faces\\other\\nasty_witch.png"
     ],
     "[Popsicle Seal]": [
         "..\\assets\\faces\\face34-7.png"
@@ -804,8 +867,11 @@
     "[Saffron Papa]": [
         "..\\assets\\faces\\face54-7.png"
     ],
-    "[Senbei Mom]": [
-        "..\\assets\\faces\\face38-7.png"
+    "[Skeleman]": [
+        "..\\assets\\faces\\other\\skeleman.png"
+    ],
+    "[Slime Golem]": [
+        "..\\assets\\faces\\other\\slime_golem.png"
     ],
     "[Snickering Jerk]": [
         "..\\assets\\faces\\facebad6-0.png",
