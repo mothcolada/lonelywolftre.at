@@ -7,6 +7,7 @@
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <style>
             body {
+                background-color: #1f213d;
                 background-image: url(/assets/lakearea.png), url(/assets/stars.png);
                 background-position:
                     center bottom,
@@ -19,12 +20,17 @@
 
                 color: white;
                 font-size: 12pt;
-                margin: 0; /* i really don't like this but idk how else to make the background look right */
+                margin: 0;
             }
 
             h1 {
                 text-align: center;
-                padding: 20px 20px 0px 20px;
+                margin: 20px;
+            }
+
+            h2 {
+                text-align: center;
+                margin: 20px;
             }
 
             p {
@@ -45,7 +51,7 @@
 
             .collection {
                 background-color: #00000060;
-                padding: 8px;
+                padding: 4px;
                 margin: 8px;
                 border-radius: 12px;
 
@@ -57,27 +63,27 @@
 
             .link {
                 background-color: #1f213dc0;
-                padding: 4px;
-                margin-top: 4px;
-                padding-right: 12px;
+                padding: 4px 8px 4px 16px;
+                margin: 4px;
                 border-radius: 4px;
+                position: relative;
 
                 p {
                     padding-top: 4px;
-                    padding-left: 12px;
                 }
                 a {
                     padding-top: 4px;
                     padding-bottom: 4px;
-                    padding-left: 12px;
                 }
                 a:hover {
-                    padding-left: 0px;
+                    padding-left: 0;
                 }
                 a:hover:before {
                     content: url(/assets/cursor.png);
-                    display: inline;
-                    width: 12px;
+                    position: absolute;
+                    inset-inline-start: 4px;
+                    inset-block-start: 4px;
+                    width: 1px;
                 }
             }
 
@@ -92,8 +98,11 @@
         </style>
     </head>
     <body>
-        <h1>This website is unofficial and is not affiliated with NomnomNami or Lonely Wolf Treat!</h1>
-        <!-- revival of original site by Galaxis (https://lonelywolftreat.com/links/ (now dead)) -->
+        <header>
+            <h1><a href="#">lonelywolftre<span style="color: white;">.at</span></a></h1>
+            <h2>This website is unofficial and is not affiliated with NomnomNami or Lonely Wolf Treat!</h2>
+            <!-- revival of original site by Galaxis (https://lonelywolftreat.com/links/ (now dead)) -->
+        </header>
         <div class="content">
             <div class="column">
                 <div class="collection">
@@ -135,12 +144,12 @@
                         <p>All of NomnomNami's games!</p>
                     </div>
                     <div class="link">
-                        <a href="https://www.patreon.com/nomnomnami">Patreon</a>
-                        <p>Support NomnomNami and gain early access to games and other perks.</p>
+                        <a href="https://www.pillowfort.social/nomnomnami">Pillowfort</a>
+                        <p>Art, rants, and other posts.</p>
                     </div>
                     <div class="link">
-                        <a href="https://nomnomnamiart.tumblr.com/">Tumblr</a>
-                        <p>Occasional NomnomNami art posts.</p>
+                        <a href="https://www.patreon.com/nomnomnami">Patreon</a>
+                        <p>Support NomnomNami and gain early access to games and other perks.</p>
                     </div>
                     <div class="link">
                         <a href="https://soundcloud.com/nomnomnami">SoundCloud</a>
@@ -155,12 +164,12 @@
                         <p>The home of another piece of candy and Timber's Community Service!</p>
                     </div>
                     <div class="link">
-                        <a href="https://www.pillowfort.social/nomnomnami">Pillowfort</a>
-                        <p>Art, rants, and other posts.</p>
-                    </div>
-                    <div class="link">
                         <a href="https://neocities.org/site/nomnomnami">Neocities</a>
                         <p>NomnomNami's website is hosted here.</p>
+                    </div>
+                    <div class="link">
+                        <a href="https://nomnomnamiart.tumblr.com/">Tumblr</a>
+                        <p>Occasional NomnomNami art posts.</p>
                     </div>
                     <div class="link">
                         <a href="https://nomnomarchive.tumblr.com/">Tumblr Archive</a>
@@ -190,11 +199,7 @@
                     <div class="link"><a href="https://discord.gg/NK5DtJy93D">Discord (Namiverse)</a></div>
                     <div class="link"><a href="https://www.reddit.com/r/nomnomnami/">Reddit (r/nomnomnami)</a></div>
                     <div class="link"><a href="https://www.tumblr.com/communities/namiverse">Tumblr</a></div>
-                    <div class="link">
-                        <a href="https://bsky.app/profile/did:plc:asvasqreodg7lttflsfa7en2/feed/aaao52yd5jfoe"
-                            >Bluesky</a
-                        >
-                    </div>
+                    <div class="link"><a href="https://bsky.app/profile/did:plc:asvasqreodg7lttflsfa7en2/feed/aaao52yd5jfoe">Bluesky</a></div>
                     <div class="link"><a href="https://www.pillowfort.social/community/NomnomNami">Pillowfort</a></div>
                 </div>
                 <div class="collection">
@@ -214,10 +219,7 @@
                     <h3>MoxDonald's <small>(by Galaxis)</small></h3>
                     <div class="link">
                         <a href="https://moxdonalds.lonelywolftre.at/">Moxdonald's</a>
-                        <p>
-                            Moxie's site for NomnomNami's fast-food themed Moxdonalds arc. (Originally at
-                            moxdonalds.com)
-                        </p>
+                        <p>Moxie's site for NomnomNami's fast-food themed Moxdonalds arc. (Originally at moxdonalds.com)</p>
                     </div>
                     <div class="link">
                         <a href="https://moxdonalds.lonelywolftre.at/girlfriends/">Girlfriends</a>
@@ -246,8 +248,8 @@
             </div>
         </div>
         <footer>
-            Lonely Wolf Treat by <a href="https://nomnomnami.com/">NomnomNami</a> | Website by
-            <a href="https://mothcolada.dev/">mothcolada</a>
+            Lonely Wolf Treat by <a href="https://nomnomnami.com/">NomnomNami</a> |
+            Website by <a href="https://mothcolada.dev/">mothcolada</a>
         </footer>
     </body>
 </html>
